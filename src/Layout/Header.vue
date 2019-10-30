@@ -35,7 +35,7 @@ export default {
       } else {
         el.setAttribute("style", "box-shadow: 0px 0px 0px 0px ;");
       }
-    }
+    },
   }
 };
 </script>
