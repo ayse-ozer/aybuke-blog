@@ -23,7 +23,7 @@
           </div>
         </div>-->
         <who-am-i />
-
+           <online-diet />
         <div class="container block-container text-center">
           <h4>ONLİNE DİYET</h4>
           <HrIcon />
@@ -83,12 +83,14 @@
 import Layout from "../Layout/Wrappers/appLayout.vue";
 import HowItWorks from "./Home/HowItWorks";
 import WhoAmI from "./Home/WhoAmI";
+import OnlineDiet from "./Home/OnlineDiyetCard";
 import HrIcon from "./components/HrIcon";
 export default {
   components: {
     Layout,
     "how-it-works": HowItWorks,
     "who-am-i": WhoAmI,
+    "online-diet":OnlineDiet,
     HrIcon
   },
   data() {
