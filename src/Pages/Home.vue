@@ -22,58 +22,10 @@
             </div>
           </div>
         </div>-->
+
+       <online-diyet-card/>
+
         <who-am-i />
-           <online-diet />
-        <div class="container block-container text-center">
-          <h4>ONLİNE DİYET</h4>
-          <HrIcon />
-          <div class="row mt-5">
-            <div class="col-md-6 mb-4 text-center">
-              <div class="zoom-effect-container">
-                <div class="image-card">
-                  <img src="../assets/img/online-diet-packet1.jpg" alt width="100%" height="100%" />
-                </div>
-              </div>
-              <div class="card-text text-center">
-                <h6 class="mb-3">Online Yüz Yüze Diyet</h6>
-                <div class="user-content-text mb-2">
-                  <img src="../assets/img/checkmark.png" alt width="30" height="30" />
-                  Online yüz yüze 2 görüşme.
-                </div>
-                <div class="user-content-text mb-2">
-                  <img src="../assets/img/checkmark.png" alt width="30" height="30" />
-                  2 adet diyet listesi + değişim listeleri.
-                </div>
-                <div class="user-content-text mb-2">
-                  <img src="../assets/img/checkmark.png" alt width="30" height="30" />
-                  Her gün WhatsApp aracılığı ile iletişim ve kontrol.
-                </div>
-                <div class="user-content-text mb-2">
-                  <img src="../assets/img/checkmark.png" alt width="30" height="30" />
-                  Tarif listeleri.
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 mb-4">
-              <div class="zoom-effect-container">
-                <div class="image-card">
-                  <img src="../assets/img/online-diet-packet2.jpg" alt width="100%" height="100%" />
-                </div>
-              </div>
-              <div class="card-text text-center">
-                <h6 class="mb-3">Online Diyet</h6>
-                <div class="user-content-text mb-2">
-                  <img src="../assets/img/checkmark.png" alt width="30" height="30" />
-                  2 adet diyet listesi + değişim listeleri.
-                </div>
-                <div class="user-content-text mb-2">
-                  <img src="../assets/img/checkmark.png" alt width="30" height="30" />
-                  2 haftada bir kontrol ve görüşme.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </Layout>
   </div>
@@ -85,6 +37,8 @@ import HowItWorks from "./Home/HowItWorks";
 import WhoAmI from "./Home/WhoAmI";
 import OnlineDiet from "./Home/OnlineDiyetCard";
 import HrIcon from "./components/HrIcon";
+import OnlineDiyetCard from "./Home/OnlineDiyetCard";
+
 export default {
   components: {
     Layout,

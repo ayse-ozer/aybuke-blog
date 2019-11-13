@@ -1,47 +1,40 @@
 <template>
-    <div class="container-fluid block-container text-center">
-          <h4>BEN KİMİM</h4>
-          <HrIcon />
-          <div class="container mt-4 text-center">
-<div class="row">
-     <div class="col-md-4 mb-3 mt-3">
-        <img src="../../assets/img/select-program-image.png" alt="" width="300" height="300">
+  <div class="container-fluid block-container text-center">
+    <h4>BEN KİMİM</h4>
+    <HrIcon />
+    <div class="container mt-4 text-center">
+      <div class="d-flex justify-content-center align-items-center h-body">
+        Merhabalar ben Diyetisyen Aybüke Ballıca 2018 Haziran ayında İstanbul Arel Üniversitesinden mezun olarak lisans eğitimimi tamamladım. Çatalca İlyas Çokay devlet hastanesi, Kanuni Sultan Süleyman Eğitim ve Araştırma hastanesi, Beylikdüzü sağlık işleri müdürlüğü, Dr. Alper Çelik Metabolik Cerrahi gibi yerlerde gelişerek ve öğrenerek, eğitimim amaçlı çalıştım. Şuan İstanbul B-fit mimaroba şubesinde hizmet vermekte ve catering alanında çalışmaktayım. Online diyet hizmetide vermekteyim ve bire bir ilgilendiğim için bu alanda olmak beni mutlu ve tatmin ediyor.
+        2017 yılında YGA zirvesine katılmaya hak kazanarak girişimci ruhumu keşfettim. Bir diyetisyen olarak hayalim ve hedefim ekonomik yetersizliklerin sonucuyla alım gücünün düşmesiyle ortaya çıkan beslenme sorunlarına, çözüm getirebilen bir diyetisyen olmak. Hayallerime inandım. 2018 yılında Hamdi Ulukaya Girişimi programına bu hayalimle katılıp 24 finalistten biri oldum. Umarım sizlerde bu yolculukta hikayemin birer parçası olursunuz.
+      </div>
     </div>
-    <div class="col-md-8">
-        <div class="d-flex justify-content-center align-items-center h-body">
-Diyetisyen Aybüke Ballıca 2018 Haziran ayında İstanbul Arel Üniversitesinden mezun olarak lisans eğitimini tamamladı. Çatalca İlyas Çokay devlet hastanesi, Kanuni Sultan Süleyman Eğitim ve Araştırma hastanesi, Beylikdüzü sağlık işleri müdürlüğü, Dr. Alper Çelik Metabolik Cerrahi gibi yerlerde gelişerek eğitimi amaçlı çalıştı. Şuan İstanbul B-fit mimaroba şubesinde hizmet vermekte ve catering alanında çalışmaktadır. Online diyet hizmeti vermekte ve bu noktada hayalleri farklı yönde olduğu için 2018 yılında Hamdi Ulukaya Girişimi programına projesiyle katılıp 24 finalistten biri olmuştur. 2017 yılında YGA zirvesinde de bulunarak girişimci ruhunu keşfetmiştir. Beslenme alanında ekonomik dengesizliği eşitlemek ve bu noktada startuplaşmak en büyük hayali.
-        </div>
-        
-    </div>
-   
-</div>
-          </div>
-        </div>
+  </div>
 </template>
 
 <script>
-import HrIcon from "../components/HrIcon"
+import HrIcon from "../components/HrIcon";
 export default {
-    components:{
-        HrIcon
-    }
-}
+  components: {
+    HrIcon
+  }
+};
 </script>
 
 <style scoped>
-.container-fluid{
-    background-color: #edf7ed;
-    margin-bottom: 50px;
+.container-fluid {
+  background-color: #ffff99;
+  margin-bottom: 50px;
+  margin: 40px 0px;
 }
-.block-container{
-padding: 40px 0px 20px 0px;
+.block-container {
+  padding: 60px 0px;
 }
-.container{
-    font-size: 16px;
-    max-width: 1500px;
+.container {
+  font-size: 16px;
+  max-width: 1500px;
 }
-.h-body{
-    height: 100%;
-    max-height: 60vh;
+.h-body {
+  height: 100%;
+  max-height: 60vh;
 }
 </style>
