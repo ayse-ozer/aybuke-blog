@@ -22,7 +22,7 @@ export default {
 
 <style scoped>
 .container-fluid {
-  background-color: #ffff99;
+  background-color: #f5f5f5;
   margin-bottom: 50px;
   margin: 40px 0px;
 }
@@ -31,7 +31,7 @@ export default {
 }
 .container {
   font-size: 16px;
-  max-width: 1500px;
+  max-width: 1200px;
 }
 .h-body {
   height: 100%;

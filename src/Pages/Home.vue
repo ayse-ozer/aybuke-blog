@@ -35,7 +35,6 @@
 import Layout from "../Layout/Wrappers/appLayout.vue";
 import HowItWorks from "./Home/HowItWorks";
 import WhoAmI from "./Home/WhoAmI";
-import OnlineDiet from "./Home/OnlineDiyetCard";
 import HrIcon from "./components/HrIcon";
 import OnlineDiyetCard from "./Home/OnlineDiyetCard";
 
@@ -44,7 +43,7 @@ export default {
     Layout,
     "how-it-works": HowItWorks,
     "who-am-i": WhoAmI,
-    "online-diet":OnlineDiet,
+    "online-diyet-card":OnlineDiyetCard,
     HrIcon
   },
   data() {
