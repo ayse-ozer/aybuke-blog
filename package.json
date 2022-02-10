@@ -16,7 +16,7 @@
     "bootstrap-vue": "^2.0.4",
     "core-js": "^3.3.2",
     "font": "0.0.4",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "sass-loader": "^8.0.0",
     "stylus": "^0.54.7",
     "stylus-loader": "^3.0.2",
